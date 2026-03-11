@@ -1,13 +1,13 @@
-
 import React from "react";
-import './../styles/App.css';
+import CachedAPI from "./components/CachedAPI";
 
-const App = () => {
+function App() {
   return (
     <div>
-        {/* Do not remove the main div */}
+      <h1>Cached API Example</h1>
+      <CachedAPI />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
