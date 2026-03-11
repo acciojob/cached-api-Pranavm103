@@ -1,5 +1,5 @@
 import React from "react";
-import CachedAPI from "./components/CachedAPI";
+import CachedAPI from "./CachedAPI";
 
 function App() {
   return (
